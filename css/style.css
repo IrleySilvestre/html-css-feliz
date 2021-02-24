@@ -1,7 +1,7 @@
-/* nav {
+nav {
     text-align: right; 
 
-} */
+}
 .imgLogo {
     border-radius: 50%;
     border: 2px solid #203e66;
@@ -49,4 +49,67 @@ a::before{
 #button:hover{
     
     transform: scale(1.08);
+}
+
+.section-home {
+   background: rgb(2, 0, 36);
+   background: linear-gradient(160deg, rgba(2, 0, 36, 1) 0%, rgba(227, 227, 236, 1) 0%, rgba(0, 255, 199, 1) 90%);
+   border-bottom: 5px solid #203e66;
+    width: 100%;
+    height: 800px;
+
+}
+
+.nome-profissao {
+    background-color: #4d77ad;
+    box-shadow: 4px 4px 0px #203e66;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 550px;
+    height: 170px;
+    position: relative;
+    top: 110px;
+    left: 100px;
+}
+
+.nome-profissao , h1 {
+    font-size: 40px;
+}
+.nome-profissao , h2 {
+    font-size: 30px;
+}
+
+.btn-home-download {
+    display: flex;
+    width: 160px ;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 170px;
+    left:100px;
+    background-color: #4d77ad;
+    border-radius: 6px;
+    box-shadow: 4px 4px 0px #203e66;
+    height: 30px;
+    padding: 17px 20px;
+
+}
+
+.btn-home-contatos{
+    display: flex;
+    width:  160px;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 110px;
+    left:450px;
+    background-color: #4d77ad;
+    border-radius: 6px;
+    box-shadow: 4px 4px 0px #203e66;
+    height: 30px;
+    padding: 17px 20px;
 }
