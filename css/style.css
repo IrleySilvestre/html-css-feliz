@@ -2,12 +2,16 @@
     text-align: right; 
 
 } */
+.imgLogo {
+    border-radius: 50%;
+    border: 2px solid #203e66;
+}
 
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #7C5E99;
-    border-bottom: 10px solid #000000;
+    background-color: #379ea5;
+    border-bottom: 5px solid #203e66;
     padding: 10px 20px;
 }
 
@@ -24,7 +28,7 @@ a {
 
 a::before{
     content: "";
-    background-color: #F25A70;
+    background-color: #4d77ad;
     width: 10px;
     height: 10px;
     margin-right: 10px;
@@ -32,11 +36,17 @@ a::before{
 
 #button {
     display: inline-block;
-    background-color: #F25A70;
-    height: 40px;
-    line-height: 40px;
+    background-color: #4d77ad;
+    border-radius: 6px;
+    height: 30px;
+    line-height: 30px;
     padding: 17px 20px;
     margin-right: 0px;
-    box-shadow: 5px 5px 0px #000000;
+    box-shadow: 4px 4px 0px #203e66;
+    transition: transform 300ms;
+}
 
+#button:hover{
+    
+    transform: scale(1.08);
 }
