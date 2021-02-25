@@ -1,8 +1,8 @@
 .button {
     display: inline-block;
-    background-color: #4d77ad;
+    background-color: #1673DE;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     color: #ffffff;
     font-family: "Fira code", Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -11,7 +11,7 @@
     line-height: 30px;
     padding: 17px 20px;
     margin-right: 0px;
-    box-shadow: 4px 4px 0px #203e66;
+    box-shadow: 4px 4px 0px #0F4C91;
     transition: transform 300ms;
 }
 
