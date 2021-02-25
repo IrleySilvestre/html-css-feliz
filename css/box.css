@@ -1,0 +1,30 @@
+.box {
+    background-color: #0161ec;
+    box-shadow: 4px 4px 0px #203e66;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: center;
+    padding: 42px 44px ; 
+
+}
+
+.box .title{
+    margin-bottom: 28px;
+}
+
+.title {
+    font-size: 40px;
+    font-family:"Amaranth", Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-style: italic;
+    text-shadow: 4px 4px 0px #203e66;
+
+}
+
+.subTittle {
+    font-size: 30px;
+    font-family:"Amaranth", Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #fff;
+    text-shadow: 4px 4px 0px #203e66;
+}

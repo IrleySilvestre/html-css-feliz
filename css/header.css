@@ -1,0 +1,15 @@
+.imgLogo {
+    border-radius: 50%;
+    border: 2px solid #203e66;
+}
+
+.header {
+    
+    display: flex;
+    justify-content: space-between;
+    background: rgb(22, 152, 222);
+    background: linear-gradient(270deg, rgb(66, 22, 222) 10%, rgb(62, 118, 226) 50%, rgba(217, 224, 232, 0.91) 90%);
+    /* background-color: #379ea5; */
+    border-bottom: 5px solid #203e66;
+    padding: 10px 20px;
+}
