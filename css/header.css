@@ -1,0 +1,13 @@
+.imgLogo {
+    border-radius: 50%;
+    border: 2px solid #203e66;
+}
+
+.header {
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: #379ea5;
+    border-bottom: 5px solid #203e66;
+    padding: 10px 20px;
+}

@@ -9,31 +9,43 @@
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital@0;1&display=swap" rel="stylesheet">
         
         <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/header.css">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/banner.css">
+        <link rel="stylesheet" href="./css/box.css">
+        <link rel="stylesheet" href="./css/action.css">
+        <link rel="stylesheet" href="./css/buttons.css">
+        <link rel="stylesheet" href="style.css">
 
     </head>
     <body>
-        <header>
+        <header class="header">
             <img class="imgLogo" src="./assets/img/caricatura_lee.png" alt="Logomarco do site">
-            <nav>
-                <a href="#" lang="en">Skills</a>
-                <a href="#">Projetos</a>
-                <a href="#">Sobre</a>
-                <a href="#">Contatos</a>             
-                <a id="button" href="" lang="en"> Download CV </a>
+            <nav class="navigation">
+                <a class="action" href="#" lang="en">Skills</a>
+                <a class="action" href="#">Projetos</a>
+                <a class="action" href="#">Sobre</a>
+                <a class="action" href="#">Contatos</a>
+                <a class="button" href="" lang="en"> Download CV </a>
             </nav>                        
         </header> 
         <section class="section-home">
-            <div class="nome-profissao">
-                <h1> Irley J. Silvestre</h1>
-                <h2>Future Dev</h2>                
+            <div class="wrapper">
+                <div class="box">
+                    <h1 class="title"> Irley J. Silvestre </h1>
+                    <h2 class="subTittle">Future Dev</h2>                
+                </div>
+
+                <div class="navigation">
+                    <a class="button" href="#">Download CV</a>
+                    <a class="button" href="#">Contato</a>
+                </div>
+                                
             </div>
-            <a class="btn-home-download" href="#">Download CV</a>
-            <a class="btn-home-contatos" href="#">Contato</a>
         </section>
-
-
     </body>
 </html>
