@@ -1,0 +1,55 @@
+.section-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(22, 152, 222);
+    background: linear-gradient(180deg, rgb(1, 78, 186) 10%, rgb(62, 118, 226) 50%, rgba(217, 224, 232, 0.91) 90%);
+    height: 730px;
+    width: 100%;
+    border-bottom: 10px solid #203e66;
+    padding-top: 50px;
+}
+
+.div-skills {
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: "Fira code", Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.card{
+    display: flex;
+}
+
+.card .title-card {
+    color: #fff;
+    font-family: "Fira code", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-shadow: 4px 4px 0px #203e66;
+}
+
+.card .img-card {
+    margin-right: 20px;
+    height: 90px;
+    width: 80px;
+
+}
+
+.progress-bar{
+    display: block;
+    background-color:  #fff;
+    border: 5px solid #000;
+    width: 320px;
+    height: 40px;
+}
+
+.wrapper-skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 700px;
+}
