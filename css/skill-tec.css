@@ -3,6 +3,8 @@
     font-size: 35px;
     font-family: "Amaranth", Arial, Helvetica, sans-serif;
     color: #fff;
+    
+    
 }
 
 .skill-tec .rigth {
@@ -17,5 +19,5 @@
 .skill-tec .icon {
     margin-right: 25px;
     height: 90px;
-    width: 80px;
+    width: 90px;
 }
