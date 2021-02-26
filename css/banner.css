@@ -1,4 +1,4 @@
-.section-home {
+.banner {
     background-image: url(../assets/img/BannerMatrix.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -9,17 +9,17 @@
     padding-left: 90px;
 }
 
-.section-home .wrapper {
+.banner .wrapper {
     display: flex;
     flex-direction: column;
     width: 645px;
 }
 
-.section-home .box {
+.banner .box {
     margin-bottom: 40px;
 }
 
-.section-home .navigation {
+.banner .navigation {
     display: flex;
     flex-direction: row;
     justify-content: space-around;    
