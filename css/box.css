@@ -11,20 +11,3 @@
 .box .title{
     margin-bottom: 28px;
 }
-
-.title {
-    font-size: 70px;
-    font-family:"Amaranth", Arial, Helvetica, sans-serif;
-    color: #fff;
-    font-style: italic;
-    text-shadow: 4px 4px 0px #203e66;
-
-}
-
-.subTittle {
-    font-size: 50px;
-    font-family:"Amaranth", Arial, Helvetica, sans-serif;
-    font-style: italic;
-    color: #fff;
-    text-shadow: 4px 4px 0px #203e66;
-}

@@ -1,4 +1,4 @@
-.section-skills {
+.section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,15 +8,6 @@
     width: 100%;
     border-bottom: 10px solid #203e66;
     padding-top: 50px;
-}
-
-.div-skills {
-    text-align: center;
-    font-size: 70px;
-    font-weight: bold;
-    font-family: "Fira code", Arial, Helvetica, sans-serif;
-    color: #fff;
-    margin-bottom: 60px;
 }
 
 .card{
