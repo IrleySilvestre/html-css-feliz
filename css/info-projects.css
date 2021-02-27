@@ -1,0 +1,33 @@
+.info-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  linear-gradient(135deg, rgb(9, 39, 81) 10%, rgb(62, 118, 226) 50%, rgba(217, 224, 232, 0.91) 90%);
+    box-shadow: 10px 5px  0 #fff;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    text-align: center;
+    width: 280px;
+    height: 280px;
+    transition: transform 300ms;
+}
+
+.info-projects:hover {
+    transform: scale(1.05);
+}
+
+.info-projects .img-projects {
+    border-radius: 5px;
+    width: 210px;
+    height: 245px;
+    background-size: 100%;
+}
+
+.info-projects .title{
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 25px;
+    text-shadow: 3px 2px black;
+}
