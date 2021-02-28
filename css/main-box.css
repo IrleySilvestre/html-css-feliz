@@ -1,4 +1,4 @@
-.box {
+.main-box {
     background-color: #0161ec;
     box-shadow: 4px 4px 0px #203e66;
     border-radius: 8px;
@@ -8,6 +8,6 @@
 
 }
 
-.box .title{
+.main-box .title{
     margin-bottom: 28px;
 }
