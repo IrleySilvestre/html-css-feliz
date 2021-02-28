@@ -1,11 +1,11 @@
-.section {
+.main-section {
     background: rgb(22, 152, 222);
     background: linear-gradient(180deg, rgb(1, 78, 186) 10%, rgb(62, 118, 226) 50%, rgba(217, 224, 232, 0.91) 90%);
     border-bottom: 10px solid #203e66;
     padding-top: 50px;
 }
 
-.section.-projetos {
+.main-section.-projetos {
     background: #0147aa;
     height: 520px;
 }
