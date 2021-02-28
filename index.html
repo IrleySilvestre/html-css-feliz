@@ -15,40 +15,40 @@
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/header-page.css">
         <link rel="stylesheet" href="./css/section-banner.css">
-        <link rel="stylesheet" href="./css/box.css">
+        <link rel="stylesheet" href="./css/main-box.css">
         <link rel="stylesheet" href="./css/main-title.css">
         <link rel="stylesheet" href="./css/main-subtitle.css">
-        <link rel="stylesheet" href="./css/action.css">
-        <link rel="stylesheet" href="./css/buttons.css">
+        <link rel="stylesheet" href="./css/main-action.css">
+        <link rel="stylesheet" href="./css/main-buttons.css">
         <link rel="stylesheet" href="./css/section.css">
         <link rel="stylesheet" href="./css/skill-tec.css">
         <link rel="stylesheet" href="./css/wrapper-skill.css">
         <link rel="stylesheet" href="./css/progress-bar.css">
-        <link rel="stylesheet" href="./css/info-projects.css">
-        <link rel="stylesheet" href="./css/wrapper-projects.css">
+        <link rel="stylesheet" href="./css/card-projec.css">
+        <link rel="stylesheet" href="./css/wrapper-card.css">
 
     </head>
     <body>
         <header class="header-page">
             <img class="img" src="./assets/img/img-perfil.jpg" alt="Logomarco do site">
             <nav >
-                <a class="action" href="#" lang="en">Skills</a>
-                <a class="action" href="#">Projetos</a>
-                <a class="action" href="#">Sobre</a>
-                <a class="action" href="#">Contatos</a>
-                <a class="button" href="" lang="en"> Download CV </a>
+                <a class="main-action" href="#" lang="en">Skills</a>
+                <a class="main-action" href="#">Projetos</a>
+                <a class="main-action" href="#">Sobre</a>
+                <a class="main-action" href="#">Contatos</a>
+                <a class="main-button" href="" lang="en"> Download CV </a>
             </nav>                        
         </header> 
         <section class="section-banner">
             <div class="wrapper">
-                <div class="box">
+                <div class="main-box">
                     <h1 class="main-title"> Irley J. Silvestre </h1>
                     <h2 class="main-subtitle">Future Dev</h2>                
                 </div>
 
                 <div class="navigation">
-                    <a class="button" href="#">Download CV</a>
-                    <a class="button" href="#">Contatos</a>
+                    <a class="main-button" href="#">Download CV</a>
+                    <a class="main-button" href="#">Contatos</a>
                 </div>                                
             </div>
         </section>
@@ -130,25 +130,23 @@
             </div>
         </section>
         <section class="section -projetos">
-            <h1 class="main-title -second"> Projetos</h1>
-            <div class="wrapper-projects">
-                <div class="info-projects">
-                <div>
-                    <h1 class="title">Curso Feliz</h1>
-                    <h2 class="title">HTML e CSS</h2>
-                    <h3 class="title">MB</h3>
-                </div>
-                </div>
-                <div class="info-projects">
-                    <div>
-                        <h1 class="title">BootCamp - Alura</h1>
-                        <h2 class="title">Front-end JAMStack</h2>
-                    </div>
-                </div>
-
-                <div class="info-projects">
-                    <img class="img" src="./assets/img/img-perfil.jpg" alt="Logomarco do site">
-                </div>
+            <h1 class="main-title -second">Projects</h1>
+            <div class="wrapper-card">
+                <a href="https://irleysilvestre.github.io/html-css-feliz/" target="_blank">
+                    <figure class = "card-project">
+                        <img class="logo" src="./assets/img/html-css-feliz.png" alt="Logo curso heml feliz">
+                    </figure>
+                </a>
+                <a href="https://bootcampsinstalura-n6upcvymy-irleysilvestre.vercel.app" target="_blank">
+                    <figure class="card-project -mgcenter ">
+                        <img class="logo" src="./assets/img/bootcamp-front-end.png" alt="Logo curso heml feliz">
+                    </figure>
+                </a>
+                <a href="#">
+                    <figure class="card-project">
+                        <img class="logo" src="./assets/img/img-perfil.jpg" alt="Logo curso heml feliz">
+                    </figure>
+                </a>
             </div>
         </section>
     </body>
