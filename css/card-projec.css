@@ -4,7 +4,7 @@
     align-items: center;
     width: 280px;
     height: 280px;
-    background:  linear-gradient(135deg, rgb(9, 39, 81) 10%, rgb(62, 118, 226) 50%, rgba(217, 224, 232, 0.91) 90%);
+    background: linear-gradient(135deg, rgb(11, 50, 65) 10%, rgb(20, 112, 109) 60%, rgba(217, 224, 232, 0.91) 90%);
     box-shadow: 10px 5px  0 #fff;
     font-size: 30px;
     transition: transform 300ms;

@@ -1,18 +1,16 @@
 .main-section {
-    background: linear-gradient(180deg, rgb(1, 78, 186) 10%, rgb(62, 118, 226) 50%, rgba(217, 224, 232, 0.91) 90%);
-    border-bottom: 10px solid #203e66;
+    background: linear-gradient(180deg, rgb(11, 50, 65) 10%, rgb(20, 112, 109) 60%, rgba(217, 224, 232, 0.91) 90%);
+    border-bottom: 10px solid #167E77;
     padding-top: 50px;
 }
 
 .main-section.-projetos {
-    background: #0147aa;
+    background: #4a8f8f;
     height: 520px;
 }
 
 .main-section.-sobre {
-    background: #072044;
-    ;
+    background:rgb(11, 50, 65);
     height: 780px;
 }
 
-}

@@ -1,6 +1,6 @@
 .main-button {
     display: inline-block;
-    background-color: #1673DE;
+    background-color: #0b3241;
     font-weight: bold;
     font-size: 35px;
     color: #ffffff;
@@ -11,7 +11,7 @@
     line-height: 30px;
     padding: 17px 20px;
     margin-right: 0px;
-    box-shadow: 4px 4px 0px #0F4C91;
+    box-shadow: 4px 4px 0px #167E77;
     transition: transform 300ms;
 }
 
