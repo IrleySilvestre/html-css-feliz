@@ -1,153 +1,208 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Projeto Curso HTML e CSS Feliz</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital@0;1&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/header-page.css">
-        <link rel="stylesheet" href="./css/section-banner.css">
-        <link rel="stylesheet" href="./css/main-box.css">
-        <link rel="stylesheet" href="./css/main-title.css">
-        <link rel="stylesheet" href="./css/main-subtitle.css">
-        <link rel="stylesheet" href="./css/main-action.css">
-        <link rel="stylesheet" href="./css/main-button.css">
-        <link rel="stylesheet" href="./css/main-section.css">
-        <link rel="stylesheet" href="./css/skill-tec.css">
-        <link rel="stylesheet" href="./css/wrapper-skill.css">
-        <link rel="stylesheet" href="./css/progress-bar.css">
-        <link rel="stylesheet" href="./css/card-projec.css">
-        <link rel="stylesheet" href="./css/wrapper-card.css">
+    <title>Projeto Curso HTML e CSS Feliz</title>
 
-    </head>
-    <body>
-        <header class="header-page">
-            <img class="img" src="./assets/img/img-perfil.jpg" alt="Logomarco do site">
-            <nav >
-                <a class="main-action" href="#" lang="en">Skills</a>
-                <a class="main-action" href="#">Projetos</a>
-                <a class="main-action" href="#">Sobre</a>
-                <a class="main-action" href="#">Contatos</a>
-                <a class="main-button" href="" lang="en"> Download CV </a>
-            </nav>                        
-        </header> 
-        <section class="section-banner">
-            <div class="wrapper">
-                <div class="main-box">
-                    <h1 class="main-title"> Irley J. Silvestre </h1>
-                    <h2 class="main-subtitle">Future Dev</h2>                
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header-page.css">
+    <link rel="stylesheet" href="./css/section-banner.css">
+    <link rel="stylesheet" href="./css/main-box.css">
+    <link rel="stylesheet" href="./css/main-title.css">
+    <link rel="stylesheet" href="./css/main-subtitle.css">
+    <link rel="stylesheet" href="./css/main-action.css">
+    <link rel="stylesheet" href="./css/main-button.css">
+    <link rel="stylesheet" href="./css/main-section.css">
+    <link rel="stylesheet" href="./css/skill-tec.css">
+    <link rel="stylesheet" href="./css/wrapper-skill.css">
+    <link rel="stylesheet" href="./css/progress-bar.css">
+    <link rel="stylesheet" href="./css/card-projec.css">
+    <link rel="stylesheet" href="./css/wrapper-card.css">
+    <link rel="stylesheet" href="./css/wrapper-sobre.css">
+    <link rel="stylesheet" href="./css/button-arrow.css">
+    <link rel="stylesheet" href="./css/main-p.css">
+    <link rel="stylesheet" href="./css/node-card.css">
+
+</head>
+
+<body>
+    <header class="header-page">
+        <img class="img" src="./assets/img/img-perfil.jpg" alt="Logomarco do site">
+        <nav>
+            <a class="main-action" href="#" lang="en">Skills</a>
+            <a class="main-action" href="#">Projetos</a>
+            <a class="main-action" href="#">Sobre</a>
+            <a class="main-action" href="#">Contatos</a>
+            <a class="main-button" href="" lang="en"> Download CV </a>
+        </nav>
+    </header>
+    <section class="section-banner">
+        <div class="wrapper">
+            <div class="main-box">
+                <h1 class="main-title"> Irley J. Silvestre </h1>
+                <h2 class="main-subtitle">Future Dev</h2>
+            </div>
+
+            <div class="navigation">
+                <a class="main-button" href="#">Download CV</a>
+                <a class="main-button" href="#">Contatos</a>
+            </div>
+        </div>
+    </section>
+    <section class="main-section">
+        <h1 class="main-title -second">Skills</h1>
+        <div class="wrapper-skill">
+            <article class="skill-tec">
+                <img class="icon" src=".//assets/img/icon-html5.png" alt="Logotipo html5">
+                <div class="right">
+                    <h3 class="title">HTML</h3>
+                    <progress class="progress-bar" max="100" value="50">
+                        50%
+                    </progress>
                 </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src=".//assets/img/icon-css.png" alt="Logotipo CSS">
+                <div class="right">
+                    <h3 class="title">CSS</h3>
+                    <progress class="progress-bar" max="100" value="30">
+                        30%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src=".//assets/img/icon-js.png" alt="Logotipo Javascript">
+                <div class="right">
+                    <h3 class="title">JavaScript</h3>
+                    <progress class="progress-bar" max="100" value="40">
+                        40%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src=".//assets/img/icon-node-js.png" alt="Logotipo Node">
+                <div class="right">
+                    <h3 class="title">Node</h3>
+                    <progress class="progress-bar" max="100" value="10">
+                        10%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src=".//assets/img/icon-react.png" alt="Logotipo React">
+                <div class="right">
+                    <h3 class="title">React</h3>
+                    <progress class="progress-bar" max="100" value="20">
+                        20%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src=".//assets/img/icon-rest.png" alt="Logotipo Rest">
+                <div class="right">
+                    <h3 class="title">Rest</h3>
+                    <progress class="progress-bar" max="100" value="0">
+                        0%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src=".//assets/img/icon-tdd.png" alt="Logotipo TDD">
+                <div class="right">
+                    <h3 class="title">TDD</h3>
+                    <progress class="progress-bar" max="100" value="20">
+                        2%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src=".//assets/img/icon-ux.png" alt="Logotipo UX">
+                <div class="right">
+                    <h3 class="title">UX</h3>
+                    <progress class="progress-bar" max="100" value="5">
+                        5%
+                    </progress>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="main-section -projetos">
+        <h1 class="main-title -second">Projects</h1>
+        <div class="wrapper-card">
+            <a href="https://irleysilvestre.github.io/html-css-feliz/" target="_blank">
+                <figure class="card-project">
+                    <img class="logo" src="./assets/img/html-css-feliz.png" alt="Logo curso heml feliz">
+                </figure>
+            </a>
+            <a href="https://bootcampsinstalura-n6upcvymy-irleysilvestre.vercel.app" target="_blank">
+                <figure class="card-project -mgcenter ">
+                    <img class="logo" src="./assets/img/bootcamp-front-end.png" alt="Logo curso heml feliz">
+                </figure>
+            </a>
+            <a href="#">
+                <figure class="card-project">
+                    <img class="logo" src="./assets/img/img-perfil.jpg" alt="Logo curso heml feliz">
+                </figure>
+            </a>
+        </div>
+    </section>
+    <section class="main-section -sobre">
+        <h2 class="main-title -second">Sobre</h2>
+        <div class="wrapper-sobre">
+            <button class="button-arrow -left"></button>
+            <figure class="node-card">
+                <figcaption class="title">2016</figcaption>
+                <div class="logo">
+                    <img class = "img-sobre" src="./assets/img/logo-universo.jpg" alt="logo universo" >
+                </div>
+            </figure>
+            <figure class="node-card">
+                <figcaption class="title">2017</figcaption>
+                <div class="logo">
+                    <img class = "img-sobre" src="./assets/img/logo-ipog.png" alt="logo universo" >
+                </div>
+            </figure>
+            <figure class="node-card">
+                <figcaption class="title">2018</figcaption>
+                <div class="logo">
+                    <img class = "img-sobre" src="./assets/img/logo-ninja.png" alt="logo universo" >
+                </div>
+            </figure>
+            <figure class="node-card">
+                <figcaption class="title">2019</figcaption>
+                <div class="logo">
+                    <img class = "img-sobre" src="./assets/img/logo-caelum.png" alt="logo universo" >
+                </div>
+            </figure>
+            <figure class="node-card">
+                <figcaption class="title">2021</figcaption>
+                <div class="logo">
+                    <img class = "img-sobre" src="./assets/img/logo-ninja.png" alt="logo universo" >
+                </div>
+            </figure>
+            
+            <button class="button-arrow -right"></button>
+        </div>
 
-                <div class="navigation">
-                    <a class="main-button" href="#">Download CV</a>
-                    <a class="main-button" href="#">Contatos</a>
-                </div>                                
-            </div>
-        </section>
-        <section class="main-section">
-            <h1 class="main-title -second">Skills</h1>
-            <div class="wrapper-skill">
-                <article class="skill-tec">
-                    <img class="icon" src=".//assets/img/icon-html5.png" alt="Logotipo html5">
-                    <div class="right">
-                        <h3 class="title">HTML</h3>
-                        <progress class="progress-bar" max="100" value="50">
-                            50%
-                        </progress>
-                    </div>
-                </article>
-                <article class="skill-tec">
-                    <img class="icon" src=".//assets/img/icon-css.png" alt="Logotipo CSS">
-                    <div class="right">
-                        <h3 class="title">CSS</h3>
-                        <progress class="progress-bar" max="100" value="30">
-                            30%
-                        </progress>
-                    </div>
-                </article>
-                <article class="skill-tec">
-                    <img class="icon" src=".//assets/img/icon-js.png" alt="Logotipo Javascript">
-                    <div class="right">
-                        <h3 class="title">JavaScript</h3>
-                        <progress class="progress-bar" max="100" value="40">
-                            40%
-                        </progress>
-                    </div>
-                </article>
-                <article class="skill-tec">
-                    <img class="icon" src=".//assets/img/icon-node-js.png" alt="Logotipo Node">
-                    <div class="right">
-                        <h3 class="title">Node</h3>
-                        <progress class="progress-bar" max="100" value="10">
-                            10%
-                        </progress>
-                    </div>
-                </article>
-                <article class="skill-tec">
-                    <img class="icon" src=".//assets/img/icon-react.png" alt="Logotipo React">
-                    <div class="right">
-                        <h3 class="title">React</h3>
-                        <progress class="progress-bar" max="100" value="20">
-                            20%
-                        </progress>
-                    </div>
-                </article>
-                <article class="skill-tec">
-                    <img class="icon" src=".//assets/img/icon-rest.png" alt="Logotipo Rest">
-                    <div class="right">
-                        <h3 class="title">Rest</h3>
-                        <progress class="progress-bar" max="100" value="0">
-                            0%
-                        </progress>
-                    </div>
-                </article>
-                <article class="skill-tec">
-                    <img class="icon" src=".//assets/img/icon-tdd.png" alt="Logotipo TDD">
-                    <div class="right">
-                        <h3 class="title">TDD</h3>
-                        <progress class="progress-bar" max="100" value="20">
-                            2%
-                        </progress>
-                    </div>
-                </article>
-                <article class="skill-tec">
-                    <img class="icon" src=".//assets/img/icon-ux.png" alt="Logotipo UX">
-                    <div class="right">
-                        <h3 class="title">UX</h3>
-                        <progress class="progress-bar" max="100" value="5">
-                            5%
-                        </progress>
-                    </div>
-                </article>
-            </div>
-        </section>
-        <section class="main-section -projetos">
-            <h1 class="main-title -second">Projects</h1>
-            <div class="wrapper-card">
-                <a href="https://irleysilvestre.github.io/html-css-feliz/" target="_blank">
-                    <figure class = "card-project">
-                        <img class="logo" src="./assets/img/html-css-feliz.png" alt="Logo curso heml feliz">
-                    </figure>
-                </a>
-                <a href="https://bootcampsinstalura-n6upcvymy-irleysilvestre.vercel.app" target="_blank">
-                    <figure class="card-project -mgcenter ">
-                        <img class="logo" src="./assets/img/bootcamp-front-end.png" alt="Logo curso heml feliz">
-                    </figure>
-                </a>
-                <a href="#">
-                    <figure class="card-project">
-                        <img class="logo" src="./assets/img/img-perfil.jpg" alt="Logo curso heml feliz">
-                    </figure>
-                </a>
-            </div>
-        </section>
-    </body>
+        <p class="main-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste modi incidunt ipsam nam hic earum commodi,
+            minus provident veritatis sunt repellat repudiandae consectetur dolores harum quisquam eos vel sit possimus?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem repellat cumque saepe neque at laboriosam
+            ratione, quia non odio. Earum voluptatibus nostrum molestiae repellendus eaque numquam iure ad corporis
+            laborum.
+        </p>
+        
+
+
+    </section>
+</body>
+
 </html>

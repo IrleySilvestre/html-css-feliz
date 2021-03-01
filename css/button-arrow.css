@@ -1,0 +1,31 @@
+.button-arrow {
+    height: 50px;
+    width: 50px;
+    background-color: #0147aa;
+    box-shadow: 5px 5px 0 #000;
+    cursor: pointer;
+    margin-left: 45px;
+}
+
+.button-arrow.-left::before{
+    content: '';
+    display: block;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border: 15px solid transparent;
+    border-right: 25px solid #fff;
+    transform: translateX(-11px);
+
+}
+
+.button-arrow.-right::before {
+    content: '';
+    display: block;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border: 15px solid transparent;
+    border-left: 25px solid #fff;
+    transform: translateX(6px);
+}
