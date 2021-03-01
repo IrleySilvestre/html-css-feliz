@@ -1,0 +1,34 @@
+.frm-contato{
+    display: block;
+    width: 1360px;
+    height: 550px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.label {
+    box-sizing: border-box;
+    font-family: "Fira code", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    
+}
+
+.input-text {
+    width: 1300px;
+    height: 50px;
+    font-size: 40px;
+    border: 5px solid #000;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.input-textarea {
+    width: 1300px;
+    height: 320px;
+    font-size: 40px;
+    margin-bottom: 15px;
+    border: 5px solid #000;
+}

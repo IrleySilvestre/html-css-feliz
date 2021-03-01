@@ -13,4 +13,33 @@
     background:rgb(11, 50, 65);
     height: 780px;
 }
+.main-section.-contato {
+    background: #162221;
+    height: 880px;
+    border-bottom: 0px;
+}
+
+.main-section.-rede-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2, 15, 6);
+    padding-top: 0px;
+    border-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.main-section.-rede-social .img-contato {
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 0px;
+    padding-top: 0px;
+
+}
+
+
+
 
