@@ -1,7 +1,8 @@
-.subTittle {
+.main-subtitle {
     font-size: 50px;
     font-family: "Amaranth", Arial, Helvetica, sans-serif;
     font-style: italic;
     color: #fff;
     text-shadow: 4px 4px 0px #203e66;
+    margin-top: 25px;
 }

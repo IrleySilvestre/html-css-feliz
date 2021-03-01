@@ -1,0 +1,27 @@
+.card-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    background:  linear-gradient(135deg, rgb(9, 39, 81) 10%, rgb(62, 118, 226) 50%, rgba(217, 224, 232, 0.91) 90%);
+    box-shadow: 10px 5px  0 #fff;
+    font-size: 30px;
+    transition: transform 300ms;
+
+}
+
+.card-project:hover {
+    transform: scale(1.05);
+}
+
+.card-project .logo{
+    border-radius: 5px;
+    width: 210px;
+    height: 245px;
+    background-size: 100%;
+}
+.card-project.-mgcenter{
+    margin-left: 75px;
+    margin-right: 75px;
+}
